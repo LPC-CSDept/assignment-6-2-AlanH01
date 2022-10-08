@@ -10,36 +10,6 @@ double nthpowerp(int n);
 double nthpowern(int n);
 void printout(double result);
 
-int main () {
-
-	int n;
-	double result;
-
-	cout << "enter num: ";
-	cin>>n;
-
-	if(n>0)
-	 {
-		result = nthpowerp(n);
-	 }
-
-	else if(n<0)
-	 {
-	  result = nthpowern(n);
-	 }
-
-	else
-	 {
-	  result = 1;
-	 }
-
-	printout(result);
-
-	return 0;
-
-}
-
-
 double nthpowerp(int n)
 
 {
@@ -53,7 +23,6 @@ double nthpowerp(int n)
   return result;
 
 }
-
 
 double nthpowern(int n)
 {
